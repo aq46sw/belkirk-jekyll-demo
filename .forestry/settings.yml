@@ -19,21 +19,21 @@ sections:
   - page
 - type: directory
   path: _people
-  label: People
+  label: Kişiler
   create: all
   match: "*"
   templates:
   - person
 - type: directory
   path: _projects
-  label: Projects
+  label: Proje
   create: all
   match: "*"
   templates:
   - project
 - type: document
   path: _data/information.yml
-  label: Contact Information
+  label: İletişim
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
