@@ -5,14 +5,14 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Content
+  label: Alan
 - type: jekyll-posts
-  label: Posts
+  label: Yazilar
   create: all
   templates:
   - post
 - type: jekyll-pages
-  label: Pages
+  label: Sayfalar
   create: all
   templates:
   - landing-page
